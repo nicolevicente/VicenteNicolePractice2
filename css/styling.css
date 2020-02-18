@@ -8,17 +8,18 @@ form {
 	outline: 3px solid white;
 }
 
-form label {
+form label{
 	display: inline-block;
 	width: 150px;
 	text-align: left;
   }
 
-select.gender{
+div select.gender{
 	display: inline-block;
-	width: 150px;
+	width: 175px;
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 95px;
 }
   
 form div {
@@ -34,5 +35,3 @@ h5{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
 }
-
-  
