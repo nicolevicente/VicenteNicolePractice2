@@ -19,7 +19,7 @@ let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     }
         else{
             document.getElementById("mail").innerHTML = "Mail is wrong";
-            document.getElementById("mail").style.backgroundColor = "pink";
+            document.getElementById("email").style.backgroundColor = "pink";
         }
 }
 
