@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+    <script src = "js/index.js"></script>
+</head>
+<body bgcolor="#181818">
+    <form id="myForm">
+        <div>
+          <label for="login">Login </label>
+          <input type="text" id="login" name="login" onchange = validateLogin()></input>
+        </div>
+        <div>
+          <label for="pw">Password </label>
+          <input type="password" id="pw" name="pw"></input>
+        </div>
+        <div>
+          <label for="cpw">Confirm Password </label>
+          <input type="password" id="cpw" name="cpw" onchange = "validatePassword()"></input>
+        </div>
+        <div>
+            Gender  <select id="gender" class="gender">
+                <option selected="selected" value="">male</option>
+                <option value="0">female</option>
+                </select>
+          </div>
+        <div>
+          <label for="email">Email </label>
+          <input type="email" id="email" name="email" onchange = "validateEmail()"></input>
+        </div>
+        <div>
+          <input type="submit" value="Register" onclick="validate()"/>
+        </div>
+
+        <h5 id="pass"></h5>
+        <h5 id="mail"></h5>
+      </form>
+</body>
+</html>

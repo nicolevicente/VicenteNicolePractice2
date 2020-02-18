@@ -1,0 +1,38 @@
+form {
+	max-width: 450px;
+	max-height: 300px;
+	background: #404040;
+	padding: 30px;
+	margin: 150px auto;
+	border: 10px solid #000000;
+	outline: 3px solid white;
+}
+
+form label {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+  }
+
+select.gender{
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+form div {
+	margin-bottom: 20px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+h5{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+  
